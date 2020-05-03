@@ -7,6 +7,6 @@ jobs:
     steps:
     - name: gitnotifier-test
       uses: Axel-Naumann/gitnotifier-ghaction@master
-      githubToken: ${{ GHTOKEN }}
       with:
         login: test@test.test
+        githubToken: ${{ GHTOKEN }}
