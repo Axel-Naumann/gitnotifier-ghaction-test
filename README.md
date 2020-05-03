@@ -1,5 +1,5 @@
 # gitnotifier-ghaction-test
 Test repo for gitnotifier-ghaction
 
-Test 1
+Test 2
 
