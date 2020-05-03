@@ -3,7 +3,7 @@ on:
   push:
 jobs:
   notify:
-    runs-on: alpine:3.10
+    runs-on: ubuntu-latest
     steps:
     - name: gitnotifier-test
       uses: Axel-Naumann/gitnotifier-ghaction@master
