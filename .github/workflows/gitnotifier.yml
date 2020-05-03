@@ -9,4 +9,4 @@ jobs:
       uses: Axel-Naumann/gitnotifier-ghaction@master
       with:
         login: test@test.test
-        githubToken: ${{ GHTOKEN }}
+        githubToken: ${{ secrets.GHTOKEN }}
