@@ -15,4 +15,3 @@ jobs:
         port: 587
         login: p9uriav8phvs@web.de
         password: ${{ secrets.SMTPPW }}
-        debug: true
